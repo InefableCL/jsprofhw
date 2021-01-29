@@ -1,0 +1,74 @@
+@import url(c:\Users\inefa\OneDrive\Desktop\JSprof\scss\_normalize.css);
+header {
+  padding: 20px 60px;
+  background-color: #424141;
+  margin-bottom: 50px;
+}
+
+nav ul {
+  padding: 0 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:nth-child(2) {
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.Main {
+  color: #fff;
+}
+
+.catalog {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (300px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 300px);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 80px;
+}
+
+.catalog .product__item {
+  padding-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  border-radius: 5px;
+  margin: 20px 0;
+  border: 1px solid #bdbcbc40;
+}
+
+.catalog .product__item .buy-btn {
+  background-color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  color: #fff;
+  border-radius: 5px;
+}
