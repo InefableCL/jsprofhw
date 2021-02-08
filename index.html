@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Catalog</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <header>
+      <nav>
+         <ul>
+            <li><a class="Main" href="index.html">Главная</a></li>
+            <li><a href="cart.html">Корзина</a> <span class="header__cart-quantity">0 </span> Предмета
+               <span class="header__cart-sum">0</span>р
+            </li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <div class="catalog"></div>
+      <div class="productsCart hiden">
+         <div class="container">
+            <h1>Cart</h1>
+            <div class="productLine">
+               <div class="productDetails">
+                  <p class="productFeatures_header">Product Details</p>
+               </div>
+               <div class="unitPrice">
+                  <p class="productFeatures_header">unite Price</p>
+               </div>
+               <div class="quantity">
+                  <p class="productFeatures_header">quantity</p>
+               </div>
+               <div class="subtotal">
+                  <p class="productFeatures_header">Subtotal</p>
+               </div>
+               <div class="action">
+                  <p class="productFeatures_header">ACTION</p>
+               </div>
+            </div>
+            <div class="CartList">
+               <!-- место для рендеринга товров корзины -->
+            </div>
+            <div class="shoppingCart-line"></div>
+            <div class="shoppingCart__function">
+               <b>Total quantity: <span class="header__cart-quantity">0</span> </b>
+               <b>Total sum:<span class="header__cart-sum">0</span></b>
+   </main>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
