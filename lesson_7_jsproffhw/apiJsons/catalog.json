@@ -1,0 +1,37 @@
+[
+    {
+      "id_product": 123,
+      "product_name": "Ноутбук",
+      "price": 45600
+    },
+    {
+      "id_product": 256,
+      "product_name": "Наушники",
+      "price": 1000
+    },
+    {
+      "id_product": 356,
+      "product_name": "Телефон",
+      "price": 1000
+    },
+    {
+      "id_product": 476,
+      "product_name": "Монитор",
+      "price": 1000
+    },
+    {
+      "id_product": 459,
+      "product_name": "Жесткий диск ",
+      "price": 1000
+    },
+    {
+      "id_product": 856,
+      "product_name": "Оперативная память",
+      "price": 1000
+    },
+    {
+      "id_product": 416,
+      "product_name": "Видеокарта",
+      "price": 1000
+    }
+  ]
