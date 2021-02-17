@@ -1,7 +1,7 @@
 
-const BASE_URL ={
-  
-}
+const BASE_URL =
+  "https://raw.githubusercontent.com/InefableCL/jsprofhw/hwjsprof1/apiJsons/";
+
 const API_FOR_CART = {
   goodsFromCart: BASE_URL + 'cart.json',
   addToCart: BASE_URL + 'addToCart.json',
